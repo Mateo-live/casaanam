@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+
+    <title>Casa Anam</title>
+</head>
+
+<body>
+
+<!---HEADER--->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <img src="imagenes/logo.jpg" alt="logo" class="img-logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#explore" class="nav__link">Explore</a>
+                    </li>
+                </ul>
+
+                <!---Close Button--->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!---Toggle Button--->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+<!---MAIN--->
+    <main class="main">
+        <section class="home section" id="home">
+            <img src="imagenes/hom1.jpg" alt="home image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                   
+                    <h1 class="home__title">
+                        Bienvenidos <br> a Casa Anam
+                    </h1>
+
+                    <p class="home__description">
+                        Te esperamos para vivir una experiencia única donde vas a disfrutar la conexión con vos mismo
+                    </p>
+
+                    <a href="#" class="button">
+                        Reservá tu Estadía <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__cards grid">
+                    <article class="home__card">
+                        <img src="/imagenes/cab2.jpg" alt="home img" class="home__card-img">
+                        <h3 class="home__card-title">Cabañas</h3>
+                        <div class="home__card-show"></div>
+                    </article>
+
+                    <article class="home__card">
+                        <img src="/imagenes/cab2.jpg" alt="home img" class="home__card-img">
+                        <h3 class="home__card-title">Eventos</h3>
+                        <div class="home__card-show"></div>
+                    </article>
+
+                    <article class="home__card">
+                        <img src="/imagenes/cab2.jpg" alt="home img" class="home__card-img">
+                        <h3 class="home__card-title">Espacio Wellness</h3>
+                        <div class="home__card-show"></div>
+                    </article>
+
+                    <article class="home__card">
+                        <img src="/imagenes/cab2.jpg" alt="home img" class="home__card-img">
+                        <h3 class="home__card-title">Co-Work</h3>
+                        <div class="home__card-show"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+
+                <div class="about__data">
+                    <h2 class="section__title">
+                        Conocé más acerca <br>
+                        Casa Anam
+                    </h2>
+
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero, iure delectus consequatur dolorem officia accusantium minima</p>
+
+                    <a href="#" class="button">
+                        Reservá ya <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="about__image">
+                    <img src="imagenes/hom6.jpg" alt="about image" class="about__img">
+                    <div class="about__shadow"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Disfrutá de los <br>
+                mejores espacios
+            </h2>
+
+            <div class="popular__container container grid">
+
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="imagenes/hall1.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+
+                    <h2 class="popular__title">
+                        Hall
+                    </h2>
+
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Recepción</span>
+                    </div>
+                </article>
+
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="imagenes/food01.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+
+                    <h2 class="popular__title">
+                        Alquiler de Salón
+                    </h2>
+
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Eventos</span>
+                    </div>
+                </article>
+
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="imagenes/cab5.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+
+                    <h2 class="popular__title">
+                        Co-Work
+                    </h2>
+
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Oficinas</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="explore section" id="explore">
+            <div class="explore__container">
+                <div class="explore__image">
+                    <img src="imagenes/hall.jpg" alt="explore image" class="explore__img">
+                    <div class="explore__shadow"></div>
+                </div>
+
+                <div class="explore__content container grid">
+                    <div class="explore__data">
+                        <h2 class="section__title">
+                            Relajate en <br>
+                            nuestras cabañas
+                        </h2>
+
+                        <p class="explore__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt debitis tenetur consectetur temporibus magnam
+                        </p>
+                    </div>
+
+                    <div class="explore__user">
+                        <img src="imagenes/user.jpg" alt="explore image" class="explore__perfil">
+                        <span class="explore__name">Lean Velardi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="join section">
+            <div class="join__container container grid">
+                <div class="join__data">
+                    <h2 class="section__title">
+                        Reservá <br>
+                        tu estadía
+                    </h2>
+
+                    <p class="join__description">
+                        Mantenete al día con la información y las actividades
+                        de Casa Anam
+                    </p>
+
+                    <form action="" class="join__form">
+                        <input type="email" placeholder="Escribe tu mail" class="join__input">
+
+                        <button class="join__button button">
+                            Suscribite para estar actualizado <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </form>                    
+                </div>
+
+                <div class="join__image">
+                    <img src="imagenes/people.jpg" alt="join image" class="join__img">
+                    <div class="join__shadow"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+<!---FOOTER--->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div>
+                    <a href="#" class="footer__logo">Casa Anam</a>
+                    <p class="footer__description">
+                        Conocé los espacios que Casa Anam tiene para <br>
+                        disfrutar y desconectar de la mejor manera
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer__group">
+                <div class="footer__social">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-mail-line"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                </div>
+
+                <span class="footer__copy">
+                    &#169; Copyright Brodes. All rights reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+<!---SCROLL UP--->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+<!---SCROLLREVEAL--->
+<script src="/js/scrollreveal.min.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+</html>
